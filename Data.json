@@ -1,0 +1,130 @@
+[
+  {
+    "_id": { "$oid": "65d347a8ec18044e5ccd45a7" },
+    "flightNumber": "440da5",
+    "originCountry": "Austria",
+    "protocolNumber": "1708344077",
+    "velocity": "220.67",
+    "geoAltitude": "11590.02"
+  },
+  {
+    "_id": { "$oid": "65d34b0bec18044e5ccd45aa" },
+    "flightNumber": "4952c5",
+    "originCountry": "Portugal",
+    "protocolNumber": "1708344199",
+    "velocity": "236.27",
+    "geoAltitude": "11582.4"
+  },
+  {
+    "_id": { "$oid": "65d353e8ec18044e5ccd45ab" },
+    "flightNumber": "4ca4f8",
+    "originCountry": "Ireland",
+    "protocolNumber": "1708344085",
+    "velocity": "248.19",
+    "geoAltitude": "11216.64"
+  },
+  {
+    "_id": { "$oid": "65d3552fec18044e5ccd45ac" },
+    "flightNumber": "76cccf",
+    "originCountry": "Singapore",
+    "protocolNumber": "1708344134",
+    "velocity": "249.21",
+    "geoAltitude": "10043.16"
+  },
+  {
+    "_id": { "$oid": "65d355c4ec18044e5ccd45ad" },
+    "flightNumber": "a8a87e",
+    "originCountry": "United States",
+    "protocolNumber": "1708344030",
+    "velocity": "208.81",
+    "geoAltitude": "9753.6"
+  },
+  {
+    "_id": { "$oid": "65d3576e93fd18f5e822e77c" },
+    "flightNumber": "344409",
+    "originCountry": "Spain",
+    "protocolNumber": "1708344079",
+    "velocity": "223.44",
+    "geoAltitude": "9136.38"
+  },
+  {
+    "_id": { "$oid": "65d357f793fd18f5e822e77d" },
+    "flightNumber": "3f59f3",
+    "originCountry": "Germany",
+    "protocolNumber": "1708344015",
+    "velocity": "244.91",
+    "geoAltitude": "9090.66"
+  },
+  {
+    "_id": { "$oid": "65d3586493fd18f5e822e77e" },
+    "flightNumber": "39e68e",
+    "originCountry": "France",
+    "protocolNumber": "1708343956",
+    "velocity": "224.74",
+    "geoAltitude": "8747.76"
+  },
+  {
+    "_id": { "$oid": "65d358d893fd18f5e822e77f" },
+    "flightNumber": "c0103e",
+    "originCountry": "Canada",
+    "protocolNumber": "1708344190",
+    "velocity": "173.47",
+    "geoAltitude": "4160.52"
+  },
+  {
+    "_id": { "$oid": "65d3595493fd18f5e822e780" },
+    "flightNumber": "868088",
+    "originCountry": "Japan",
+    "protocolNumber": "1708344055",
+    "velocity": "197.24",
+    "geoAltitude": "9906"
+  },
+  {
+    "_id": { "$oid": "65d359bd93fd18f5e822e781" },
+    "flightNumber": "3008a0",
+    "originCountry": "Italy",
+    "protocolNumber": "1708343949",
+    "velocity": " 43.58",
+    "geoAltitude": "9791.7"
+  },
+  {
+    "_id": { "$oid": "65d35a3793fd18f5e822e782" },
+    "flightNumber": "4bc881",
+    "originCountry": "Turkey",
+    "protocolNumber": "1708344199",
+    "velocity": "220",
+    "geoAltitude": " 10995.66"
+  },
+  {
+    "_id": { "$oid": "65d35a8e93fd18f5e822e783" },
+    "flightNumber": "4b1614",
+    "originCountry": "Switzerland",
+    "protocolNumber": "1708343895",
+    "velocity": "135.29",
+    "geoAltitude": "2712.72"
+  },
+  {
+    "_id": { "$oid": "65d35ae093fd18f5e822e784" },
+    "flightNumber": "440062",
+    "originCountry": "Austria",
+    "protocolNumber": "1708344157",
+    "velocity": "210.52",
+    "geoAltitude": "12009.12"
+  },
+  {
+    "_id": { "$oid": "65d35b4c93fd18f5e822e785" },
+    "flightNumber": "GTI3857",
+    "originCountry": "United States",
+    "protocolNumber": "1708344097",
+    "velocity": "167.84",
+    "geoAltitude": "3200.4"
+  },
+  {
+    "_id": { "$oid": "65d35bc693fd18f5e822e786" },
+    "flightNumber": "4601f3",
+    "originCountry": "Finland",
+    "protocolNumber": "1708344125",
+    "velocity": " 233.73",
+    "geoAltitude": "1143"
+  }
+]
