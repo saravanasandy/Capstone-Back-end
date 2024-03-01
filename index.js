@@ -1,44 +1,17 @@
-require("dotenv").config();
-const cors = require("cors");
-const express =  require("express");
-const connectDB = require("./connectDb");
+const express = require('express');
+const colors = require('colors')
+const dotenv = require('dotenv').config()
+const {errorHandler} = require('./middleware/errorMiddleware')
+const connectDB = require('./config/db')
+const port = process.env.PORT || 8000
 
-const Flight = require("./models/FlightData");
-  
-   const app = express();
+connectDB()
+const app = express()
 
-   const PORT = process.env.PORT || 8001;
+app.use(express.json())
+app.use(express.urlencoded({extended:false}))
 
-   connectDB();
-    // MiddleWare
+app.use('/api/flights', require('./routes/bookRoutes'))
+app.use(errorHandler)
 
- app.use(cors());
- app.use(express.urlencoded({extended:true}));
- app.use(express.json());
- 
-
- // creating a route 
- app.get("/api/flight",async(req,res) =>{
-    
-    try {
-       const data =  await Flight.find({});
-       res.json(data);
-     
-    } catch (error) {
-        res.status(500).json({error : "An error occurred while fetching flight."})
-    }
-})
-
-   app.get("/",(req,res)=>{
-       res.json("Hello Capstone!");
-   });
-
-    app.get("*",(req,res)=>{
-           res.sendStatus("404");
-    });
-     
-  
-    app.listen(PORT,()=>{
-        console.log(`server is running on PORT:S{PORT}`)  ;
-    });
- 
+app.listen(port, ()=> console.log(`Server started on port ${port}`))
